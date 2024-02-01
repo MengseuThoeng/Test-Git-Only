@@ -1,0 +1,48 @@
+/* Sudo Element p::after */
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;500;700&display=swap");
+
+* {
+  font-family: "Kantumruy Pro";
+  margin: 0;
+  color: white;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../Image/jolyn.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  & > p {
+    background-color: rgba(0, 0, 0, 0.304);
+    padding: 8px 0;
+    text-align: center;
+  }
+
+  & .homecard {
+    width: 55%;
+    background-color: rgba(0, 0, 0, 0.304);
+    padding: 15px 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+
+    & p {
+        margin: 15px 0;
+    }
+    & button {
+      padding: 10px 20px;
+      color: black;
+      border-radius: 15px;
+      border: none;
+      background-color: orange;
+    }
+
+  }
+}

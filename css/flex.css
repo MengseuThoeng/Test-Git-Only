@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    width: 100%;
+}
+.one, .two, .three, .four, .five, .six , .seven, .eight{
+    width: 100px;
+    height: 100px;
+    background-color: lightcyan;
+    text-align: center;
+    font-size: 2em;
+    border: 1px solid darkblue;
+}
+.container {
+    width: 500px;
+    border: 1px solid green;
+    align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.one{
+    /* flex: 1; */
+  flex-grow:1 ;
+  /* align-self: baseline; */
+  flex-shrink: 0; 
+}

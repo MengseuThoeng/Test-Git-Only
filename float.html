@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container{
+            border:2px solid black;
+            margin: 0 auto;
+            height: 1000px;
+        }
+        div[class*="box"]{
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            line-height: 100px;
+            
+            &h1{
+                margin: 0;
+            }
+        }
+        .boxes{
+            display: flex;
+            flex-direction: row;
+            /* flex-wrap: wrap; */
+            /* flex-flow: row wrap; */
+            /* justify-content: space-around; */
+            /* Flex start start from row-reverse */
+           
+            /* width: 100%;
+            height: 1000px;
+            justify-content: center;
+            align-items: center; */
+            /* first 50px is row 20px is column */
+            gap:50px 20px;
+        }
+        .box1{
+            background-color: aliceblue;
+        }
+        .box2{
+            background-color: rgb(77, 85, 54);
+        }
+        .box3{
+            background-color: rgb(18, 212, 21);
+        }
+        .box4{
+            background-color: rgb(177, 208, 172);
+        }
+        .box5{
+            background-color: rgb(202, 23, 49);
+        }
+    
+    </style>
+    <title>Float</title>
+</head>
+<body>
+    <main class="container">
+        <seaction class="boxes">
+            <div class="box1">
+                <h1>1</h1>
+            </div>
+            <div class="box2">
+                <h1>2</h1>
+            </div>
+            <div class="box3">
+                <h1>3</h1>
+            </div>
+            <div class="box4">
+                <h1>4</h1>
+            </div>
+            <div class="box5">
+                <h1>5</h1>
+            </div>
+        </seaction>
+    </main>
+</body>
+</html>
