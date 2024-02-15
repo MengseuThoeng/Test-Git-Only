@@ -1,8 +1,4 @@
-var username ="Seu";
-console.log(username);
-
-console.log(age);
-var age = 18;
-
-console.clear
-console.log("After Clear")
+let greetingMsg = "Welcome bro"
+let student ='Mengseu'
+const name=`Hello ${greetingMsg} My name is ${student}`
+console.log(name)
